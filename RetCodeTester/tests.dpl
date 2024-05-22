@@ -1,0 +1,6 @@
+exit 5;code5
+echo My name is %MyName% and my age is %Age%
+echo %HELLO%
+start notepad;code0,1,2,3;retry2
+ping -n35 127.0.0.1 > nul;code1;retry1
+powershell echo pstest;code0,999

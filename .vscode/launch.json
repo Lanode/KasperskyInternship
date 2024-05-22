@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build RetCodeTester.sln",
+            "program": "${workspaceFolder}/RetCodeTester/bin/Debug/net8.0/RetCodeTester.exe",
+            "args": [
+                "tests.dpl"
+            ],
+            "cwd": "${workspaceFolder}/RetCodeTester/",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}

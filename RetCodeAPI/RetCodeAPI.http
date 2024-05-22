@@ -1,0 +1,6 @@
+@RetCodeAPI_HostAddress = http://localhost:5056
+
+GET {{RetCodeAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
